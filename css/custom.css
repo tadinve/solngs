@@ -8,3 +8,11 @@ Created: August 2014
 License URI: http://support.wrapbootstrap.com/
 File Description: Place here your custom CSS styles
 */
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+p{
+  align="justify";
+}

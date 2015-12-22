@@ -343,7 +343,7 @@ tbody {
 	border-bottom: none;
 }
 .header {
-	padding: 20px 0;
+	padding: 10px 0;
 	border-bottom: 1px solid #eaeaea;
 	background-color: #fff;
 }
@@ -867,7 +867,7 @@ tbody {
 	display: none;
 }
 .fixed-header-on .header .navbar.navbar-default {
-	margin: 0;
+	margin: 5px 0 5px;
 }
 .fixed-header-on .header.fixed.animated {
 	-webkit-animation-duration: 0.5s;
@@ -3512,7 +3512,7 @@ a.overlay.small i {
 /* first level menu */
 .navbar.navbar-default {
 	border-radius: 0;
-	margin: 12px 0 5px;
+	margin: 5px 0 5px;
 	background-color: #fafafa;
 	border-color: #f1f1f1;
 }

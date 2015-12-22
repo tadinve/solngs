@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'genelabs');
+define('DB_NAME', 'genomiclabs');
 
 /** MySQL database username */
-define('DB_USER', 'sollabs');
+define('DB_USER', 'genomiclabs');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'e?H((1^+X3po');
+define('DB_PASSWORD', 'genomiclabs');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '{BV+N<_|z6(E-6:{c<E|pTAkflT{p$cI0Zhs`jz9r@4(uIxCl8<D}ThS`U35AkTw');
-define('SECURE_AUTH_KEY',  'K>Y]VK;;(z2{-|]00<xACZ]T2U^0Su<K=[k-TbKOA(HkUW`Uj!W4I&9e,CjIB4DZ');
-define('LOGGED_IN_KEY',    'SJ3{?g0Q5 ]^}2rP}+G)v)pt7!a<AT2o(b[L->uaWbd.&K#bNl>|rl&Y1uAn+.-9');
-define('NONCE_KEY',        'o3J}s;R+KmGo{#<J_7iD8*x1.OP< v~,j/2OM9)[Q2N.|w#F o3{`;-_F5SZ BL_');
-define('AUTH_SALT',        '|;&d)No;Ef4Z45}K[M:0D#q#Nbz.<z2S)VbBkO-VW(++r|+C@.+|.f&J@+>PSyjy');
-define('SECURE_AUTH_SALT', 'C$dK@Sdllmv*>!$Umae`bp`&KA?QvX+YkxxPA`v`j-?R1A:}~|-6(obL4C.8,/y3');
-define('LOGGED_IN_SALT',   'C|(l2PF)f1tv!oR}~yahIdd|x/HD~,Xb;|Bi)$vlKBu${~+oU0Pd{<^6vn<gVII4');
-define('NONCE_SALT',       'Np|ph<^4>(T0;s;i*7zc-^~Z_)a]TU 4}^-~q9p|>F5GY}8(BHgRQ{>9;m<y(`(`');
+define('AUTH_KEY',         'zN0Da4*R8g2?7?dm#:Z>nRpr2?[7$i.1 ]]^;x0?&HA~QklCwEMgOu{r%AMv!;{`');
+define('SECURE_AUTH_KEY',  'Zw[UDXAki=IcUy>isv|+y1_z8^d?{Y]~c9!l}v}^ocUp,^cS,2dJ<)jO-L,NJmBh');
+define('LOGGED_IN_KEY',    '%:;|VV:mCq{E-j-]Aje.o+WWRV?-)WVjJ.j^%(bkv,3D>7SL;=VON 53r1pk3@4g');
+define('NONCE_KEY',        '+RZ-$~,WJBdY?YgV$%6I^A~]BP&xzFp-|(3kI{?Pv:c&)qQIPH-f_Cq)fWq8;1vS');
+define('AUTH_SALT',        ':v_6G]uj.nj-b2G`i+*egrvY1V_y4Eu%oc XtcCf&g9&`/f69=}/v;uASjCI6IhC');
+define('SECURE_AUTH_SALT', 'cT+[ud[7y!b,hL,4pmu8U51#fxnn(XErN8{o~_7bfsuquaMocO#utT4}-_Sxpw/4');
+define('LOGGED_IN_SALT',   '3J1^23Sl P(Z@G8hOSZ_vzIMM|d/0aGhY(]]a^nSh+rf;3+7EC!WAGSi5j5a38KY');
+define('NONCE_SALT',       '7|ej@S~;L)3 v1)uJs4P86I1<kyA7yDc1>; +xnd4-Jy;IMBQysCkyVs#v-?}s8%');
 
 /**#@-*/
 

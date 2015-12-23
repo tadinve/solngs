@@ -1330,6 +1330,9 @@ tbody {
 		position: absolute;
 		width: 80px;
 	}
+	.tp-caption.large, .tp-caption.medium {
+	    margin: 0px 50px;
+	}
 }
 
 /* Affix Menu - Sidebar */

@@ -777,7 +777,7 @@
 		headerHeight = $("header.header.fixed").outerHeight();
 		$(window).scroll(function() {
 			if (($(".header.fixed").length > 0)) { 
-				if(($(this).scrollTop() > headerTopHeight+headerHeight) && ($(window).width() > 767)) {
+				if(($(this).scrollTop() > 50) && ($(window).width() > 767)) {
 					$("body").addClass("fixed-header-on");
 					$(".header.fixed").addClass('animated object-visible fadeInDown');
 					if (!($(".header.transparent").length>0)) {

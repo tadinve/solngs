@@ -6168,3 +6168,6 @@ ul.tweets li span {
 	display: block;
 }
 
+.header_new .navbar-default .navbar-nav > li > a{
+	padding: 10px 15px;
+}

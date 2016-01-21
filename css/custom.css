@@ -22,3 +22,6 @@ h10 {
 	font-size: 8px;
 
 }
+#navlist .active{
+	color: #E84C3D;
+}

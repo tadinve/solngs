@@ -124,8 +124,8 @@
 
 											<!-- Collect the nav links, forms, and other content for toggling -->
 											<div class="collapse navbar-collapse" id="navbar-collapse-1">
-												<ul class="nav navbar-nav navbar-right">
-													<li class=" active">
+												<ul class="nav navbar-nav navbar-right" id="navlist">
+													<li id="first-child">
 														<a href="#home" class="get_link dropdown-toggle">Home</a>
 														
 													</li>
@@ -1014,11 +1014,20 @@
 		<!-- Custom Scripts -->
 		<script type="text/javascript" src="js/custom.js"></script>
 		<script type="text/javascript">
-		$('.get_link').click(function(){
+			$('.get_link').click(function(){
 			    $('html, body').animate({
 			        scrollTop: $( $(this).attr('href') ).offset().top
 			    }, 1500);
 			    return false;
+			});
+			$(document).ready(function() {
+				$('#first-child').addClass('active');
+			});
+			$('#navlist a').click(function() {
+				$('#first-child').removeClass('active');
+			    
+			    $('#navlist a').removeClass('active');
+			    $(this).addClass('active');
 			});
 		</script>
 

@@ -11,7 +11,10 @@ File Description: Place here your custom CSS styles
 IMG.displayed {
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 
 p{
 text-align:justify
@@ -24,4 +27,8 @@ h10 {
 }
 #navlist .active{
 	color: #E84C3D;
+}
+.credit_space{
+	margin-top: -10px;
+	margin-left: 40px;
 }

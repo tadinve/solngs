@@ -855,11 +855,11 @@ tbody {
 	left: auto;
 }
 .fixed-header-on .header .logo {
-	-webkit-transform: scale(0.80);
+	/*-webkit-transform: scale(0.80);
 	-moz-transform: scale(0.80);
 	-ms-transform: scale(0.80);
 	-o-transform: scale(0.80);
-	transform: scale(0.80);
+	transform: scale(0.80);*/
 	margin: 2px 0 -4px 0;
 	display: none;
 }
